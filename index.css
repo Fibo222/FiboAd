@@ -1,0 +1,74 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+  *{
+    --radius:10px;
+    outline: 0;
+    resize: none;
+    color: #000;
+  }
+  *::selection {
+    background-color: #FF0057;
+    color: #000;
+  }
+  * a:is(:link,:hover,:active,:visited){
+      position: ;
+    color: rgba(225, 12, 12);
+    text-decoration: none;
+  }
+  * input[placeholder]{
+    user-select: none;
+  }
+  * button, * input[type="submit"], * input[type='reset'] {
+    border-style: hidden ;
+    user-select: none;
+  }
+  * input[type='file'] {
+    display: none;
+  }
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:#fff;
+    overflow: hidden ;
+}
+header{
+    width: 100%;
+    padding: 4% 0%;
+    margin: auto ;
+    position: absolute;
+    inset: 0% 0% auto;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+header button {
+    width: auto ;
+    margin: auto 2%;
+    background-color: transparent;
+    font: 120% 'Poppins';
+    font-weight: bold;
+    letter-spacing: 0.4;
+}
+span{
+    position: absolute;
+    inset: 85% auto auto;
+    width: 100%;
+    text-align: center ;
+    font: 80% 'Roboto';
+}
+img {
+    width: 100%;
+    height: auto ;
+    position: absolute;
+    inset: 25% 0% auto;
+}
+.load{
+    width: 70%;
+    padding: 3% 2%;
+    border-radius: 8px;
+    background-color: rgb(225,12,12);
+    color: rgb(116,0,0);
+    font: 105% 'Poppins';
+    position: absolute;
+    inset: auto 13% 3%;
+}
